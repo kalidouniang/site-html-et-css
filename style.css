@@ -1,0 +1,114 @@
+html{
+    min-width: 100%;
+    box-sizing: border-box;
+}
+body{
+    background: #63ff8594;
+    color: #000000;
+    margin: 0 100px;
+}
+a{
+    text-decoration: none;
+}
+.nav {
+    padding-bottom: 80px;
+    background: #fff;
+}
+.nav h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.7;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #170069;
+    border-bottom: 2px solid #000;
+}
+.nav h1 span {
+    color: #4caf50;
+}
+.nav ul {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px 0;
+    float: right;
+    overflow: hidden;
+    margin-right: 100px;
+}
+.nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    overflow: hidden;
+}
+.nav ul li a {
+    color: #4caf50;
+    font-size: 35px;
+    font-weight: bold;
+}
+.text-header{
+    text-align: center;
+    background: #999;
+    padding: 0 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.text-header h1 {
+    font-size: 50px;
+}
+.section {
+    background: #fff;
+    margin-top: -20px;
+    padding: 20px 0;
+}
+.section .section-un .section-image {
+    margin: 0 0;
+    display: inline-block;
+    margin-left: 75px;
+}
+.section .section-un .section-image .images {
+    width: 500px;
+    height: auto;
+    margin: 10px 0;
+}
+.section .section-deux {
+    background: #4caf50;
+    color: #fff;
+    padding: 20px 0;
+}
+.section .section-deux .contact .info {
+    margin-left: 50px;
+    font-size: 18px;
+    color: #000;
+    line-height: 1.7;
+}
+.footer{
+    background: #fff;
+    padding: 1px 0;
+    text-align: center;
+}
+.about a {
+    color: #ffffff;
+    font-size: 20px;
+}
+#agence {
+    font-size: 16px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#agence th {
+    padding-top: 11px;
+    padding: 11px;
+    background: #4caf50;
+    color: white;
+}
+#agence td {
+    border: 1px solid #fff;
+    padding: 15px;
+    text-align: left;
+}
+.title, desc {
+    text-align: center;
+}
